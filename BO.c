@@ -37,7 +37,7 @@ int main(){
 		printf("5 - Excluir BO \n \n");	
 		printf("0 - Sair \n \n");	
 		
-		printf("Digite um número \n");
+		printf("Digite um nÃºmero \n");
 		scanf("%d", &opcao);
 		
 		 switch(opcao)
@@ -49,10 +49,10 @@ int main(){
 		 	printf("Digite seu nome:\n \n ");
 		 	scanf("%[^\n]s", lista[totalBO].nome);
 		 	
-		 	printf("Digite o tipo de ocorrência:\n \n ");
+		 	printf("Digite o tipo de ocorrÃªncia:\n \n ");
 			scanf(" %[^\n]s", lista[totalBO].tipo);
 			
-			printf("Digite a descrição: \n \n");
+			printf("Digite a descriÃ§Ã£o: \n \n");
 			scanf(" %[^\n]s", lista[totalBO].descricao);
 			
 			printf("Digite a data:\n \n ");
@@ -65,9 +65,27 @@ int main(){
 			
 		 	
 			 break;
-		 case 2:
-		 	printf("LISTA DE BO \n \n \n");
-		 	break;
+		case 2:
+    printf("LISTA DE BO \n\n\n");
+
+    if (totalBO == 0)
+    {
+        printf("Nenhum BO cadastrado!\n\n");
+    }
+    else
+    {
+        for (int i = 0; i < totalBO; i++)
+        {
+            printf("ID: %d\n", lista[i].id);
+            printf("Nome: %s\n", lista[i].nome);
+            printf("Tipo: %s\n", lista[i].tipo);
+            printf("Descricao: %s\n", lista[i].descricao);
+            printf("Data: %s\n", lista[i].data);
+            printf("------------------------\n");
+        }
+    }
+
+    break;
 		 case 3:
 			printf("BUSCAR BO \n \n \n");
 			break;
@@ -81,7 +99,7 @@ int main(){
 		 	printf("SAINDO...");
 		 	break;
 		 default:
-		 	printf("OPERAÇÃO INVÁLIDA\n \n");
+		 	printf("OPERAÃ‡ÃƒO INVÃLIDA\n \n");
 			 break;
 		 }
 		
