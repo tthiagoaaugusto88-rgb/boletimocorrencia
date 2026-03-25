@@ -1,56 +1,48 @@
 🚔 Sistema de Boletim de Ocorrência (BO) em C
 
-Um sistema simples de gerenciamento de boletins de ocorrência desenvolvido em linguagem C, com funcionalidades básicas de cadastro, listagem e manipulação de dados.
+Projeto desenvolvido em linguagem C com foco em prática de lógica de programação e construção de sistemas baseados em terminal.
 
 📌 Sobre o projeto
 
-Este projeto simula um sistema de registro de boletins de ocorrência, permitindo ao usuário interagir via terminal para gerenciar informações.
+Este sistema simula o registro de boletins de ocorrência, permitindo o gerenciamento de dados diretamente pelo terminal.
 
-Cada BO contém:
+Cada BO possui:
 
 ID automático
-Nome do solicitante
+Nome
 Tipo de ocorrência
 Descrição
 Data
 ⚙️ Funcionalidades
 ✅ Cadastrar BO
-📋 Listar BOs
-🔍 Buscar BO
-✏️ Editar BO
-❌ Excluir BO
-
-(Algumas funcionalidades ainda estão em desenvolvimento)
-
-🛠️ Tecnologias utilizadas
-Linguagem C
-Biblioteca padrão (stdio.h)
-Biblioteca de localização (locale.h)
-Falcon C++
-▶️ Como executar
-Compile o código:
-Execute:
-💻 Exemplo de uso
-====BOLETIM DE OCORRENCIA====
-
-1 - Cadastrar BO
-2 - Listar BO
-3 - Buscar BO
-4 - Editar BO
-5 - Excluir BO
-0 - Sair
-🧠 Aprendizados
-
-Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
-
-Structs em C
-Vetores de estruturas
-Controle de fluxo (switch, while)
-Entrada de dados com scanf
-Organização de sistema em menu
-🚧 Melhorias futuras
-Implementar listagem completa dos BOs
-Criar sistema de busca por ID
-Permitir edição e exclusão de registros
-Salvar dados em arquivo (persistência)
-Melhorar tratamento de entrada do usuário
+⬜ Listar BOs
+⬜ Buscar BO
+⬜ Editar BO
+⬜ Excluir BO
+📈 Evolução do Projeto
+🟢 Etapa 1 — Planejamento
+✅ Definição da ideia (Sistema de BO)
+✅ Definição das funcionalidades principais
+✅ Estruturação dos dados (struct)
+🟡 Etapa 2 — Estrutura base
+✅ Criação da struct BO
+✅ Criação do vetor de armazenamento (lista[100])
+✅ Controle de quantidade (totalBO)
+🔵 Etapa 3 — Sistema interativo
+✅ Implementação do menu
+✅ Uso de while para manter o sistema rodando
+✅ Uso de switch para controle das opções
+🟣 Etapa 4 — Funcionalidades
+✅ Cadastro de BO funcionando
+⬜ Listagem de BOs
+⬜ Busca por BO
+⬜ Edição de BO
+⬜ Exclusão de BO
+🔴 Etapa 5 — Correções e melhorias
+✅ Correção de bug no scanf (entrada pulando)
+⬜ Melhorar validação de entrada
+⬜ Evitar estouro de limite do vetor
+⚫ Etapa 6 — Futuro do projeto
+⬜ Salvar dados em arquivo (persistência)
+⬜ Interface mais amigável
+⬜ Modularização do código (funções separadas)
