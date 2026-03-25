@@ -26,12 +26,10 @@ Data
 Linguagem C
 Biblioteca padrão (stdio.h)
 Biblioteca de localização (locale.h)
-Visual Studio Code
+Falcon C++
 ▶️ Como executar
 Compile o código:
-gcc programa.c -o programa
 Execute:
-./programa
 💻 Exemplo de uso
 ====BOLETIM DE OCORRENCIA====
 
