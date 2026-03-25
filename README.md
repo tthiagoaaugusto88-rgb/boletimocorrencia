@@ -15,7 +15,7 @@ Descrição
 Data
 ⚙️ Funcionalidades
 ✅ Cadastrar BO
-⬜ Listar BOs
+✅ Listar BOs
 ⬜ Buscar BO
 ⬜ Editar BO
 ⬜ Excluir BO
